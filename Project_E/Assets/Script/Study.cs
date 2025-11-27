@@ -1,6 +1,8 @@
 using System;
 using UnityEngine;
 
+using Random = UnityEngine.Random;
+
 public class Study : MonoBehaviour
 {
     public string say = "";
@@ -15,6 +17,8 @@ public class Study : MonoBehaviour
         Debug.Log(this.say);
         Debug.Log(this.text);
 
+
+        Debug.Log(Random.Range(0, 100));
     }
 
     // Update is called once per frame
